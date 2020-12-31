@@ -1,0 +1,849 @@
+﻿Log file open, 12/31/20 14:06:08
+LogInit:Display: Running engine for game: Supervivencia
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-2092837381) SRandInit(-2092837380).
+LogTaskGraph: Started task graph with 5 named threads and 10 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.139828
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line: 
+LogInit: Base directory: D:/PROGRAMAS/UNREAL/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2020.12.31-13.06.08:884][  0]LogInit: Selected Device Profile: [Windows]
+[2020.12.31-13.06.08:884][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.12.31-13.06.08:895][  0]LogInit: Computer: DESKTOP-IQLRGCS
+[2020.12.31-13.06.08:895][  0]LogInit: User: Sofía
+[2020.12.31-13.06.08:895][  0]LogInit: CPU Page size=4096, Cores=6
+[2020.12.31-13.06.08:895][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.12.31-13.06.08:896][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2020.12.31-13.06.08:896][  0]LogMemory: Platform Memory Stats for Windows
+[2020.12.31-13.06.08:896][  0]LogMemory: Process Physical Memory: 274.52 MB used, 274.52 MB peak
+[2020.12.31-13.06.08:896][  0]LogMemory: Process Virtual Memory: 267.33 MB used, 267.33 MB peak
+[2020.12.31-13.06.08:896][  0]LogMemory: Physical Memory: 5401.03 MB used,  10932.59 MB free, 16333.62 MB total
+[2020.12.31-13.06.08:896][  0]LogMemory: Virtual Memory: 4767.56 MB used,  10932.59 MB free, 134217728.00 MB total
+[2020.12.31-13.06.08:950][  0]LogInit: Overriding language with editor language configuration option (en).
+[2020.12.31-13.06.08:950][  0]LogInit: Overriding locale with editor locale configuration option (en).
+[2020.12.31-13.06.09:725][  0]LogD3D11RHI: D3D11 adapters:
+[2020.12.31-13.06.09:812][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1650 SUPER' (Feature Level 11_0)
+[2020.12.31-13.06.09:812][  0]LogD3D11RHI:       3955/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2020.12.31-13.06.09:814][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.12.31-13.06.09:814][  0]LogD3D11RHI:       0/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.12.31-13.06.09:814][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.12.31-13.06.09:818][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.12.31-13.06.09:818][  0]LogD3D11RHI:     GPU DeviceId: 0x2187 (for the marketing name, search the web for "GPU Device Id")
+[2020.12.31-13.06.09:818][  0]LogWindows: EnumDisplayDevices:
+[2020.12.31-13.06.09:818][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1650 SUPER' (P:1 D:1)
+[2020.12.31-13.06.09:818][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1650 SUPER' (P:0 D:0)
+[2020.12.31-13.06.09:818][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1650 SUPER' (P:0 D:0)
+[2020.12.31-13.06.09:818][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1650 SUPER' (P:0 D:0)
+[2020.12.31-13.06.09:818][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2020.12.31-13.06.09:818][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1650 SUPER
+[2020.12.31-13.06.09:818][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2020.12.31-13.06.09:818][  0]LogD3D11RHI:      Driver Date: Unknown
+[2020.12.31-13.06.09:818][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2020.12.31-13.06.09:886][  0]LogD3D11RHI: Async texture creation enabled
+[2020.12.31-13.06.09:899][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2020.12.31-13.06.09:900][  0]LogShaderCompilers: Guid format shader working directory is -54 characters bigger than the processId version (../../../../../../CLASE/VIDEOJUEGOS/LAB/AmpliacionesUnreal/miProyecto/Supervivencia (2)/Supervivencia/Intermediate/Shaders/WorkingDirectory/476/).
+[2020.12.31-13.06.09:900][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Sofía/AppData/Local/Temp/UnrealShaderWorkingDir/0EA811BB486BEA5D60DE4094B16C588C/'.
+[2020.12.31-13.06.09:900][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2020.12.31-13.06.10:667][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2020.12.31-13.06.10:706][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2020.12.31-13.06.10:745][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2020.12.31-13.06.10:785][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2020.12.31-13.06.10:825][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2020.12.31-13.06.10:863][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2020.12.31-13.06.10:902][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2020.12.31-13.06.10:940][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2020.12.31-13.06.10:973][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2020.12.31-13.06.11:011][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2020.12.31-13.06.11:049][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2020.12.31-13.06.11:087][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2020.12.31-13.06.11:124][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2020.12.31-13.06.11:162][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2020.12.31-13.06.11:200][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2020.12.31-13.06.11:276][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2020.12.31-13.06.11:276][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2020.12.31-13.06.11:305][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2020.12.31-13.06.11:380][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2020.12.31-13.06.11:403][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2020.12.31-13.06.11:440][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2020.12.31-13.06.11:478][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2020.12.31-13.06.11:515][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2020.12.31-13.06.11:553][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2020.12.31-13.06.11:553][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2020.12.31-13.06.11:920][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2020.12.31-13.06.11:971][  0]LogDerivedDataCache: Loaded boot cache 0.05s 90MB C:/Users/Sofía/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2020.12.31-13.06.11:971][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Sofía/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2020.12.31-13.06.11:971][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../CLASE/VIDEOJUEGOS/LAB/AmpliacionesUnreal/miProyecto/Supervivencia (2)/Supervivencia/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.12.31-13.06.11:971][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.12.31-13.06.11:971][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../CLASE/VIDEOJUEGOS/LAB/AmpliacionesUnreal/miProyecto/Supervivencia (2)/Supervivencia/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.12.31-13.06.11:971][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.12.31-13.06.11:986][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.12.31-13.06.11:998][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Sofía/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.12.31-13.06.12:005][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.12.31-13.06.12:006][  0]LogSlate: Using Freetype 2.6.0
+[2020.12.31-13.06.12:006][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.12.31-13.06.12:006][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.12.31-13.06.12:264][  0]LogInit: Selected Device Profile: [Windows]
+[2020.12.31-13.06.12:309][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2020.12.31-13.06.12:421][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.12.31-13.06.12:454][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2020.12.31-13.06.12:491][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2020.12.31-13.06.12:491][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2020.12.31-13.06.12:491][  0]LogMeshUtilities: No automatic mesh merging module available
+[2020.12.31-13.06.12:869][  0]LogNetVersion: Supervivencia , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1556410374)
+[2020.12.31-13.06.12:920][  0]LogAssetRegistry: FAssetRegistry took 0.0255 seconds to start up
+[2020.12.31-13.06.12:953][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 1 prioritized culture(s) in 0.016598 seconds
+[2020.12.31-13.06.12:957][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2020.12.31-13.06.12:957][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2020.12.31-13.06.12:957][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.12.31-13.06.13:003][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2020.12.31-13.06.14:782][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.12.31-13.06.14:817][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.12.31-13.06.15:235][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2020.12.31-13.06.15:527][  0]SourceControl: Info Source control is disabled
+[2020.12.31-13.06.15:528][  0]SourceControl: Info Source control is disabled
+[2020.12.31-13.06.15:566][  0]SourceControl: Info Source control is disabled
+[2020.12.31-13.06.15:604][  0]SourceControl: Info Source control is disabled
+[2020.12.31-13.06.16:130][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.12.31-13.06.16:591][  0]LogEngine: Initializing Engine...
+[2020.12.31-13.06.16:592][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.12.31-13.06.16:708][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2020.12.31-13.06.16:708][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2020.12.31-13.06.16:800][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.12.31-13.06.16:811][  0]LogInit: XAudio2 using 'cascos (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.12.31-13.06.16:837][  0]LogInit: FAudioDevice initialized.
+[2020.12.31-13.06.16:873][  0]LogDerivedDataCache: Saved boot cache 0.04s 90MB C:/Users/Sofía/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2020.12.31-13.06.16:882][  0]LogInit: Texture streaming: Enabled
+[2020.12.31-13.06.16:950][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.12.31-13.06.17:108][  0]LogInit: Transaction tracking system initialized
+[2020.12.31-13.06.17:331][  0]BlueprintLog: New page: Editor Load
+[2020.12.31-13.06.18:003][  0]LocalizationService: Info Localization service is disabled
+[2020.12.31-13.06.18:507][  0]LogConsoleResponse:Display: 
+[2020.12.31-13.06.18:595][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.12.31-13.06.18:595][  0]LogCook:Display: Mobile HDR setting 1
+[2020.12.31-13.06.19:362][  0]LogFileCache: Scanning file cache for directory 'D:/CLASE/VIDEOJUEGOS/LAB/AmpliacionesUnreal/miProyecto/Supervivencia (2)/Supervivencia/Content/' took 0.02s
+[2020.12.31-13.06.19:362][  0]SourceControl: Info Source control is disabled
+[2020.12.31-13.06.19:362][  0]Cmd: MAP LOAD FILE="../../../../../../CLASE/VIDEOJUEGOS/LAB/AmpliacionesUnreal/miProyecto/Supervivencia (2)/Supervivencia/Content/Level2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.12.31-13.06.19:362][  0]LightingResults: New page: Lighting Build
+[2020.12.31-13.06.19:392][  0]MapCheck: New page: Map Check
+[2020.12.31-13.06.19:392][  0]LightingResults: New page: Lighting Build
+[2020.12.31-13.06.20:124][  0]LogAIModule: Creating AISystem for world Level2
+[2020.12.31-13.06.20:148][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.12.31-13.06.20:175][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.12.31-13.06.20:226][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 50.62ms to complete.
+[2020.12.31-13.06.20:226][  0]LogFileHelpers: Loading map 'Level2' took 0.864
+[2020.12.31-13.06.20:342][  0]LogCollectionManager: Loaded 0 collections in 0.000831 seconds
+[2020.12.31-13.06.20:409][  0]LogFileCache: Scanning file cache for directory 'D:/CLASE/VIDEOJUEGOS/LAB/AmpliacionesUnreal/miProyecto/Supervivencia (2)/Supervivencia/Saved/Collections/' took 0.01s
+[2020.12.31-13.06.20:409][  0]LogFileCache: Scanning file cache for directory 'D:/CLASE/VIDEOJUEGOS/LAB/AmpliacionesUnreal/miProyecto/Supervivencia (2)/Supervivencia/Content/Developers/Sofía/Collections/' took 0.01s
+[2020.12.31-13.06.20:409][  0]LogFileCache: Scanning file cache for directory 'D:/CLASE/VIDEOJUEGOS/LAB/AmpliacionesUnreal/miProyecto/Supervivencia (2)/Supervivencia/Content/Collections/' took 0.01s
+[2020.12.31-13.06.20:409][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2020.12.31-13.06.20:417][  0]LogContentBrowser: Native class hierarchy populated in 0.0079 seconds. Added 2329 classes and 491 folders.
+[2020.12.31-13.06.20:464][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2020.12.31-13.06.20:504][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2020.12.31-13.06.20:536][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2020.12.31-13.06.20:565][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2020.12.31-13.06.20:574][  0]LogSlate: Took 0.000195 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.12.31-13.06.20:575][  0]LogSlate: Took 0.000138 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.12.31-13.06.20:579][  0]LogSlate: Took 0.000166 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.12.31-13.06.20:641][  0]LogRenderer: Reallocating scene render targets to support 1076x436 NumSamples 1 (Frame:1).
+[2020.12.31-13.06.20:806][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2020.12.31-13.06.20:861][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2020.12.31-13.06.20:861][  0]LogLoad: (Engine Initialization) Total time: 13.54 seconds
+[2020.12.31-13.06.20:861][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.18 seconds
+[2020.12.31-13.06.20:861][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2020.12.31-13.06.20:870][  0]LogOcInput: OculusInput pre-init called
+[2020.12.31-13.06.20:870][  0]LogHMD: Starting GearVRController plugin
+[2020.12.31-13.06.20:907][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.12.31-13.06.20:949][  1]LogFileCache: Retrieving MD5 hashes for directory 'D:/CLASE/VIDEOJUEGOS/LAB/AmpliacionesUnreal/miProyecto/Supervivencia (2)/Supervivencia/Content/' took 0.07s
+[2020.12.31-13.06.20:953][  1]LogAssetRegistry: Asset discovery search completed in 8.0563 seconds
+[2020.12.31-13.06.20:955][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2020.12.31-13.06.20:955][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000015 seconds (updated 0 objects)
+[2020.12.31-13.06.43:251][672]LogTemp: Repeting last play command: Selected Viewport
+[2020.12.31-13.06.43:311][672]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.12.31-13.06.43:311][672]PIE: New page: PIE session: Level2 (Dec 31, 2020, 3:06:43 PM)
+[2020.12.31-13.06.43:312][672]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_Level2
+[2020.12.31-13.06.43:322][672]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010117s)
+[2020.12.31-13.06.43:322][672]LogAIModule: Creating AISystem for world Level2
+[2020.12.31-13.06.43:323][672]LogPlayLevel: PIE: World Init took: (0.000619s)
+[2020.12.31-13.06.43:323][672]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Level2.Level2 to /Game/UEDPIE_0_Level2.Level2 (0.010926s)
+[2020.12.31-13.06.43:333][672]LogInit: XAudio2 using 'cascos (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.12.31-13.06.43:344][672]LogInit: FAudioDevice initialized.
+[2020.12.31-13.06.43:385][672]LogLoad: Game class is 'ModoSupervivencia_C'
+[2020.12.31-13.06.43:390][672]LogWorld: Bringing World /Game/UEDPIE_0_Level2.Level2 up for play (max tick rate 0) at 2020.12.31-14.06.43
+[2020.12.31-13.06.43:391][672]LogWorld: Bringing up level for play took: 0.004871
+[2020.12.31-13.06.43:422][672]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2020.12.31-13.06.43:425][672]PIE: Info Play in editor start time for /Game/UEDPIE_0_Level2 0.269
+[2020.12.31-13.06.45:080][868]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint4] colision true
+[2020.12.31-13.06.45:080][868]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint_2] colision true
+[2020.12.31-13.06.45:089][869]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint2] colision true
+[2020.12.31-13.06.45:089][869]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint5] colision true
+[2020.12.31-13.06.45:830][958]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint4] colision true
+[2020.12.31-13.06.45:830][958]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint_2] colision true
+[2020.12.31-13.06.45:839][959]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint2] colision true
+[2020.12.31-13.06.45:839][959]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint5] colision true
+[2020.12.31-13.06.45:864][962]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint2] colision true
+[2020.12.31-13.06.45:880][964]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint4] colision true
+[2020.12.31-13.06.45:905][967]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint5] colision true
+[2020.12.31-13.06.45:964][974]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint_2] colision true
+[2020.12.31-13.06.47:705][183]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint2] colision true
+[2020.12.31-13.06.47:713][184]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint6] colision true
+[2020.12.31-13.06.47:713][184]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint7] colision true
+[2020.12.31-13.06.47:755][189]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint4] colision true
+[2020.12.31-13.06.47:780][192]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint5] colision true
+[2020.12.31-13.06.47:788][193]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint_2] colision true
+[2020.12.31-13.06.48:272][251]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint2] colision true
+[2020.12.31-13.06.48:280][252]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint7] colision true
+[2020.12.31-13.06.48:305][255]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint6] colision true
+[2020.12.31-13.06.48:322][257]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint2] colision true
+[2020.12.31-13.06.48:330][258]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint4] colision true
+[2020.12.31-13.06.48:372][263]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint5] colision true
+[2020.12.31-13.06.48:397][266]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint_2] colision true
+[2020.12.31-13.06.48:597][290]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint2] colision true
+[2020.12.31-13.06.48:605][291]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint6] colision true
+[2020.12.31-13.06.48:613][292]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint7] colision true
+[2020.12.31-13.06.48:655][297]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint4] colision true
+[2020.12.31-13.06.48:705][303]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint5] colision true
+[2020.12.31-13.06.48:722][305]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint_2] colision true
+[2020.12.31-13.06.48:838][319]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint6] colision true
+[2020.12.31-13.06.48:855][321]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint2] colision true
+[2020.12.31-13.06.48:872][323]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint7] colision true
+[2020.12.31-13.06.48:897][326]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint7] colision true
+[2020.12.31-13.06.48:913][328]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint2] colision true
+[2020.12.31-13.06.48:913][328]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint4] colision true
+[2020.12.31-13.06.48:963][334]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint5] colision true
+[2020.12.31-13.06.48:972][335]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint_2] colision true
+[2020.12.31-13.06.49:023][341]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint6] colision true
+[2020.12.31-13.06.49:063][346]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint2] colision true
+[2020.12.31-13.06.49:080][348]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint7] colision true
+[2020.12.31-13.06.49:130][354]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint4] colision true
+[2020.12.31-13.06.49:172][359]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint5] colision true
+[2020.12.31-13.06.49:188][361]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint7] colision true
+[2020.12.31-13.06.49:197][362]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint_2] colision true
+[2020.12.31-13.06.49:222][365]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint6] colision true
+[2020.12.31-13.06.49:247][368]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint2] colision true
+[2020.12.31-13.06.49:263][370]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint2] colision true
+[2020.12.31-13.06.49:280][372]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint7] colision true
+[2020.12.31-13.06.49:330][378]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint4] colision true
+[2020.12.31-13.06.49:372][383]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint5] colision true
+[2020.12.31-13.06.49:397][386]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint7] colision true
+[2020.12.31-13.06.49:397][386]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint_2] colision true
+[2020.12.31-13.06.49:505][399]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint2] colision true
+[2020.12.31-13.06.49:597][410]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint7] colision true
+[2020.12.31-13.06.49:713][424]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint2] colision true
+[2020.12.31-13.06.49:830][438]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint7] colision true
+[2020.12.31-13.06.49:914][448]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint2] colision true
+[2020.12.31-13.06.58:699][475]LogPackageName: SearchForPackageOnDisk took   0.082s, but failed to resolve Level7.umap.
+[2020.12.31-13.06.58:787][476]LogPackageName: SearchForPackageOnDisk took   0.083s, but failed to resolve Level7.umap.
+[2020.12.31-13.06.58:787][476]LogNet: Browse: /Game/Levels/Level2
+[2020.12.31-13.06.58:787][476]LogNet:Warning: Travel Failure: [InvalidURL]: Invalid URL: /Game/Levels/Level2
+[2020.12.31-13.06.58:787][476]LogNet:Warning: TravelFailure: InvalidURL, Reason for Failure: 'Invalid URL: /Game/Levels/Level2'. Shutting down PIE.
+[2020.12.31-13.06.58:787][476]PIE:Warning: Warning TravelFailure: InvalidURL, Reason for Failure: 'Invalid URL: /Game/Levels/Level2'. Shutting down PIE.
+[2020.12.31-13.06.58:787][476]LogNet:Warning: Travel Failure: [ClientTravelFailure]: Invalid URL: /Game/Levels/Level2
+[2020.12.31-13.06.58:787][476]LogNet:Warning: TravelFailure: ClientTravelFailure, Reason for Failure: 'Invalid URL: /Game/Levels/Level2'. Shutting down PIE.
+[2020.12.31-13.06.58:787][476]PIE:Warning: Warning TravelFailure: ClientTravelFailure, Reason for Failure: 'Invalid URL: /Game/Levels/Level2'. Shutting down PIE.
+[2020.12.31-13.07.06:346][374]LogSlate: Took 0.000182 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2020.12.31-13.07.06:396][374]LogAIModule: Creating AISystem for world Level2
+[2020.12.31-13.07.06:409][374]Cmd: MAP LOAD FILE="../../../../../../CLASE/VIDEOJUEGOS/LAB/AmpliacionesUnreal/miProyecto/Supervivencia (2)/Supervivencia/Content/Levels/Level2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.12.31-13.07.06:409][374]LightingResults: New page: Lighting Build
+[2020.12.31-13.07.06:410][374]LoadErrors: New page: Loading map: Level2.umap
+[2020.12.31-13.07.06:411][374]MapCheck: New page: Map Check
+[2020.12.31-13.07.06:411][374]LightingResults: New page: Lighting Build
+[2020.12.31-13.07.06:436][374]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.12.31-13.07.06:480][374]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.12.31-13.07.06:531][374]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 50.597ms to complete.
+[2020.12.31-13.07.06:531][374]LogFileHelpers: Loading map 'Level2' took 0.122
+[2020.12.31-13.07.08:065][556]LogTemp: Repeting last play command: Selected Viewport
+[2020.12.31-13.07.08:083][556]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.12.31-13.07.08:083][556]PIE: New page: PIE session: Level2 (Dec 31, 2020, 3:07:08 PM)
+[2020.12.31-13.07.08:083][556]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level2
+[2020.12.31-13.07.08:096][556]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012932s)
+[2020.12.31-13.07.08:097][556]LogAIModule: Creating AISystem for world Level2
+[2020.12.31-13.07.08:097][556]LogPlayLevel: PIE: World Init took: (0.000563s)
+[2020.12.31-13.07.08:097][556]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level2.Level2 to /Game/Levels/UEDPIE_0_Level2.Level2 (0.013649s)
+[2020.12.31-13.07.08:107][556]LogInit: XAudio2 using 'cascos (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.12.31-13.07.08:118][556]LogInit: FAudioDevice initialized.
+[2020.12.31-13.07.08:148][556]LogLoad: Game class is 'ModoSupervivencia_C'
+[2020.12.31-13.07.08:153][556]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level2.Level2 up for play (max tick rate 0) at 2020.12.31-14.07.08
+[2020.12.31-13.07.08:154][556]LogWorld: Bringing up level for play took: 0.004288
+[2020.12.31-13.07.08:155][556]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Level2 0.999
+[2020.12.31-13.07.12:089][ 17]LogAIModule: Creating AISystem for world Level1
+[2020.12.31-13.07.12:097][ 17]Cmd: MAP LOAD FILE="../../../../../../CLASE/VIDEOJUEGOS/LAB/AmpliacionesUnreal/miProyecto/Supervivencia (2)/Supervivencia/Content/Levels/Level1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.12.31-13.07.12:097][ 17]LightingResults: New page: Lighting Build
+[2020.12.31-13.07.12:098][ 17]LoadErrors: New page: Loading map: Level1.umap
+[2020.12.31-13.07.12:099][ 17]MapCheck: New page: Map Check
+[2020.12.31-13.07.12:099][ 17]LightingResults: New page: Lighting Build
+[2020.12.31-13.07.12:127][ 17]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.12.31-13.07.12:161][ 17]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.12.31-13.07.12:213][ 17]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 51.375ms to complete.
+[2020.12.31-13.07.12:213][ 17]LogFileHelpers: Loading map 'Level1' took 0.116
+[2020.12.31-13.07.13:611][183]Cmd: SELECT NONE
+[2020.12.31-13.07.14:788][323]Cmd: MAP LOAD FILE="../../../../../../CLASE/VIDEOJUEGOS/LAB/AmpliacionesUnreal/miProyecto/Supervivencia (2)/Supervivencia/Content/Levels/Level1.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.12.31-13.07.14:788][323]LightingResults: New page: Lighting Build
+[2020.12.31-13.07.14:789][323]LoadErrors: New page: Loading map: Level1.umap
+[2020.12.31-13.07.14:789][323]MapCheck: New page: Map Check
+[2020.12.31-13.07.14:789][323]LightingResults: New page: Lighting Build
+[2020.12.31-13.07.14:801][323]LogAIModule: Creating AISystem for world Level1
+[2020.12.31-13.07.14:808][323]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.12.31-13.07.14:843][323]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.12.31-13.07.14:894][323]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 51.702ms to complete.
+[2020.12.31-13.07.14:895][323]LogFileHelpers: Loading map 'Level1' took 0.107
+[2020.12.31-13.07.15:800][430]LogTemp: Repeting last play command: Selected Viewport
+[2020.12.31-13.07.15:818][430]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.12.31-13.07.15:818][430]PIE: New page: PIE session: Level1 (Dec 31, 2020, 3:07:15 PM)
+[2020.12.31-13.07.15:818][430]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level1
+[2020.12.31-13.07.15:821][430]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002379s)
+[2020.12.31-13.07.15:821][430]LogAIModule: Creating AISystem for world Level1
+[2020.12.31-13.07.15:821][430]LogPlayLevel: PIE: World Init took: (0.000440s)
+[2020.12.31-13.07.15:821][430]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level1.Level1 to /Game/Levels/UEDPIE_0_Level1.Level1 (0.002957s)
+[2020.12.31-13.07.15:832][430]LogInit: XAudio2 using 'cascos (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.12.31-13.07.15:843][430]LogInit: FAudioDevice initialized.
+[2020.12.31-13.07.15:875][430]LogLoad: Game class is 'ModoSupervivencia_C'
+[2020.12.31-13.07.15:877][430]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level1.Level1 up for play (max tick rate 0) at 2020.12.31-14.07.15
+[2020.12.31-13.07.15:877][430]LogWorld: Bringing up level for play took: 0.000497
+[2020.12.31-13.07.15:879][430]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors2 of length 0!
+[2020.12.31-13.07.15:879][430]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (GenerarEnemigo) or object (None)
+[2020.12.31-13.07.15:879][430]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Level1 0.723
+[2020.12.31-13.07.37:815][ 48]LogAIModule: Creating AISystem for world Menu
+[2020.12.31-13.07.37:823][ 48]LogAIModule: Creating AISystem for world Level1
+[2020.12.31-13.07.37:866][ 48]LogAIModule: Creating AISystem for world Level2
+[2020.12.31-13.07.37:919][ 48]LogAIModule: Creating AISystem for world Level3
+[2020.12.31-13.07.38:242][ 48]LogSlate: Took 0.000145 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2020.12.31-13.07.47:311][719]LogAIModule: Creating AISystem for world Menu
+[2020.12.31-13.07.48:690][719]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Level3" FILE="../../../../../../CLASE/VIDEOJUEGOS/LAB/AmpliacionesUnreal/miProyecto/Supervivencia (2)/Supervivencia/Content/Level3.umap" SILENT=true
+[2020.12.31-13.07.48:849][719]LogSavePackage: Save=155.01ms
+[2020.12.31-13.07.48:849][719]LogSavePackage: Moving '../../../../../../CLASE/VIDEOJUEGOS/LAB/AmpliacionesUnreal/miProyecto/Supervivencia (2)/Supervivencia/Saved/Level3D2AE436F49C5B19A023479A9A3A32184.tmp' to '../../../../../../CLASE/VIDEOJUEGOS/LAB/AmpliacionesUnreal/miProyecto/Supervivencia (2)/Supervivencia/Content/Level3.umap'
+[2020.12.31-13.07.48:853][719]LogSavePackage:Display: Finished SavePackage ../../../../../../CLASE/VIDEOJUEGOS/LAB/AmpliacionesUnreal/miProyecto/Supervivencia (2)/Supervivencia/Content/Level3.umap
+[2020.12.31-13.07.48:854][719]Cmd: MAP LOAD FILE="../../../../../../CLASE/VIDEOJUEGOS/LAB/AmpliacionesUnreal/miProyecto/Supervivencia (2)/Supervivencia/Content/Levels/Menu.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.12.31-13.07.48:854][719]LightingResults: New page: Lighting Build
+[2020.12.31-13.07.48:854][719]LoadErrors: New page: Loading map: Menu.umap
+[2020.12.31-13.07.48:855][719]MapCheck: New page: Map Check
+[2020.12.31-13.07.48:855][719]LightingResults: New page: Lighting Build
+[2020.12.31-13.07.48:861][719]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.12.31-13.07.48:896][719]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.12.31-13.07.48:953][719]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 57.016ms to complete.
+[2020.12.31-13.07.48:953][719]LogFileHelpers: Loading map 'Menu' took 0.100
+[2020.12.31-13.07.48:953][719]LogSlate: Took 0.000133 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.12.31-13.07.51:123][978]LogTemp: Repeting last play command: Selected Viewport
+[2020.12.31-13.07.51:142][978]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Levels/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/Levels/Menu.Menu_C' with ClassGeneratedBy '/Game/Levels/Menu.Menu:PersistentLevel.Menu'
+[2020.12.31-13.07.51:142][978]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.12.31-13.07.51:142][978]PIE: New page: PIE session: Menu (Dec 31, 2020, 3:07:51 PM)
+[2020.12.31-13.07.51:143][978]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Menu
+[2020.12.31-13.07.51:144][978]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000652s)
+[2020.12.31-13.07.51:144][978]LogAIModule: Creating AISystem for world Menu
+[2020.12.31-13.07.51:144][978]LogPlayLevel: PIE: World Init took: (0.000439s)
+[2020.12.31-13.07.51:144][978]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Menu.Menu to /Game/Levels/UEDPIE_0_Menu.Menu (0.001235s)
+[2020.12.31-13.07.51:155][978]LogInit: XAudio2 using 'cascos (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.12.31-13.07.51:166][978]LogInit: FAudioDevice initialized.
+[2020.12.31-13.07.51:196][978]LogLoad: Game class is 'ModoSupervivencia_C'
+[2020.12.31-13.07.51:197][978]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Menu.Menu up for play (max tick rate 0) at 2020.12.31-14.07.51
+[2020.12.31-13.07.51:197][978]LogWorld: Bringing up level for play took: 0.000419
+[2020.12.31-13.07.51:199][978]LogScriptCore:Warning: Script Msg: Attempted to access index 0 from array CallFunc_GetAllActorsOfClass_OutActors2 of length 0!
+[2020.12.31-13.07.51:199][978]LogBlueprintUserMessages:Warning: SetTimer passed a bad function (GenerarEnemigo) or object (None)
+[2020.12.31-13.07.51:199][978]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Menu 0.043
+[2020.12.31-13.07.51:200][978]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Levels/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/Levels/Menu.Menu_C' with ClassGeneratedBy '/Game/Levels/Menu.Menu:PersistentLevel.Menu'
+[2020.12.31-13.07.53:120][208]LogNet: Browse: /Game/Levels/Level2
+[2020.12.31-13.07.53:120][208]LogLoad: LoadMap: /Game/Levels/Level2
+[2020.12.31-13.07.53:128][208]Cmd: MEM
+[2020.12.31-13.07.53:135][208]LogMemory: Platform Memory Stats for Windows
+[2020.12.31-13.07.53:135][208]LogMemory: Process Physical Memory: 1747.13 MB used, 1856.05 MB peak
+[2020.12.31-13.07.53:135][208]LogMemory: Process Virtual Memory: 2609.68 MB used, 2840.99 MB peak
+[2020.12.31-13.07.53:135][208]LogMemory: Physical Memory: 6065.74 MB used,  10267.88 MB free, 16333.62 MB total
+[2020.12.31-13.07.53:135][208]LogMemory: Virtual Memory: 7825.81 MB used,  10267.88 MB free, 134217728.00 MB total
+[2020.12.31-13.07.53:135][208]LogMemory: 
+[2020.12.31-13.07.53:135][208]Allocator Stats for TBB: (not implemented)
+[2020.12.31-13.07.53:446][208]LogAIModule: Creating AISystem for world Level2
+[2020.12.31-13.07.53:446][208]LogLoad: Game class is 'ModoSupervivencia_C'
+[2020.12.31-13.07.53:453][208]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level2.Level2 up for play (max tick rate 0) at 2020.12.31-14.07.53
+[2020.12.31-13.07.53:454][208]LogWorld: Bringing up level for play took: 0.006900
+[2020.12.31-13.07.53:456][208]LogLoad: Took 0.335397 seconds to LoadMap(/Game/Levels/Level2)
+[2020.12.31-13.07.54:807][357]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint2] colision true
+[2020.12.31-13.07.54:816][358]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint4] colision true
+[2020.12.31-13.07.54:816][358]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint_2] colision true
+[2020.12.31-13.07.54:816][358]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint7] colision true
+[2020.12.31-13.07.55:332][420]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint4] colision true
+[2020.12.31-13.07.55:349][422]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint2] colision true
+[2020.12.31-13.07.55:366][424]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint5] colision true
+[2020.12.31-13.07.55:391][427]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint3] colision true
+[2020.12.31-13.07.55:392][427]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint2] colision true
+[2020.12.31-13.07.55:408][429]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint5] colision true
+[2020.12.31-13.07.55:425][431]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint4] colision true
+[2020.12.31-13.07.55:483][438]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint3] colision true
+[2020.12.31-13.07.55:999][500]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint2] colision true
+[2020.12.31-13.07.56:033][504]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint6] colision true
+[2020.12.31-13.07.56:041][505]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint7] colision true
+[2020.12.31-13.07.56:041][505]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint_2] colision true
+[2020.12.31-13.07.56:066][508]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint4] colision true
+[2020.12.31-13.07.56:074][509]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint5] colision true
+[2020.12.31-13.07.58:033][744]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint6] colision true
+[2020.12.31-13.07.58:033][744]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint7] colision true
+[2020.12.31-13.07.58:909][849]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint6] colision true
+[2020.12.31-13.07.58:909][849]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint7] colision true
+[2020.12.31-13.07.59:016][862]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint6] colision true
+[2020.12.31-13.07.59:759][951]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint7] colision true
+[2020.12.31-13.07.59:774][953]LogCharacterMovement: Jugador_C_0 is stuck and failed to move! Velocity: X=-584.47 Y=130.24 Z=0.00 Location: X=-8549.25 Y=6710.30 Z=275.97 Normal: X=-0.40 Y=-0.89 Z=-0.23 PenetrationDepth:41.236 Actor:Disparo_C_5 Component:Cube BoneName:None (0 other events since notify)
+[2020.12.31-13.07.59:900][968]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint6] colision true
+[2020.12.31-13.08.00:284][ 14]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint7] colision true
+[2020.12.31-13.08.00:525][ 43]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint6] colision true
+[2020.12.31-13.08.01:442][153]LogCharacterMovement: Jugador_C_0 is stuck and failed to move! Velocity: X=457.95 Y=-373.40 Z=0.00 Location: X=-8775.79 Y=6422.84 Z=274.38 Normal: X=-0.77 Y=-0.61 Z=-0.17 PenetrationDepth:23.692 Actor:Disparo_C_7 Component:Cube BoneName:None (7 other events since notify)
+[2020.12.31-13.08.06:208][725]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint7] colision true
+[2020.12.31-13.08.06:209][725]LogCharacterMovement: Jugador_C_0 is stuck and failed to move! Velocity: X=406.49 Y=428.84 Z=0.00 Location: X=-6466.32 Y=5627.34 Z=650.70 Normal: X=0.67 Y=-0.73 Z=-0.15 PenetrationDepth:34.274 Actor:Disparo_C_8 Component:Cube BoneName:None (3 other events since notify)
+[2020.12.31-13.08.06:332][740]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint2] colision true
+[2020.12.31-13.08.06:391][747]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint6] colision true
+[2020.12.31-13.08.06:533][764]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint4] colision true
+[2020.12.31-13.08.06:541][765]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint7] colision true
+[2020.12.31-13.08.10:225][197]LogPackageName: SearchForPackageOnDisk took   0.083s, but failed to resolve Level7.umap.
+[2020.12.31-13.08.10:312][198]LogPackageName: SearchForPackageOnDisk took   0.083s, but failed to resolve Level7.umap.
+[2020.12.31-13.08.10:312][198]LogNet: Browse: /Game/Levels/Level2
+[2020.12.31-13.08.10:312][198]LogNet:Warning: Travel Failure: [InvalidURL]: Invalid URL: /Game/Levels/Level2
+[2020.12.31-13.08.10:312][198]LogNet:Warning: TravelFailure: InvalidURL, Reason for Failure: 'Invalid URL: /Game/Levels/Level2'. Shutting down PIE.
+[2020.12.31-13.08.10:312][198]PIE:Warning: Warning TravelFailure: InvalidURL, Reason for Failure: 'Invalid URL: /Game/Levels/Level2'. Shutting down PIE.
+[2020.12.31-13.08.10:312][198]LogNet:Warning: Travel Failure: [ClientTravelFailure]: Invalid URL: /Game/Levels/Level2
+[2020.12.31-13.08.10:312][198]LogNet:Warning: TravelFailure: ClientTravelFailure, Reason for Failure: 'Invalid URL: /Game/Levels/Level2'. Shutting down PIE.
+[2020.12.31-13.08.10:312][198]PIE:Warning: Warning TravelFailure: ClientTravelFailure, Reason for Failure: 'Invalid URL: /Game/Levels/Level2'. Shutting down PIE.
+[2020.12.31-13.08.10:313][198]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Levels/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/Levels/Menu.Menu_C' with ClassGeneratedBy '/Game/Levels/Menu.Menu:PersistentLevel.Menu'
+[2020.12.31-13.08.10:349][198]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Levels/Menu.Menu:PersistentLevel' has LevelScriptBlueprint '/Game/Levels/Menu.Menu:PersistentLevel.Menu' with GeneratedClass '/Game/Levels/Menu.Menu_C' with ClassGeneratedBy '/Game/Levels/Menu.Menu:PersistentLevel.Menu'
+[2020.12.31-13.08.57:346][425]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2020.12.31-13.08.57:386][428]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.Supervivencia
+[2020.12.31-13.08.57:386][428]LogTemp: CWD: D:\PROGRAMAS\UNREAL\UE_4.16\Engine\Binaries\DotNET\IOS
+[2020.12.31-13.08.57:386][428]LogTemp: Initial Dir: D:\PROGRAMAS\UNREAL\UE_4.16
+[2020.12.31-13.08.57:386][428]LogTemp: Env CWD: D:\PROGRAMAS\UNREAL\UE_4.16\Engine\Binaries\DotNET\IOS
+[2020.12.31-13.08.57:386][428]LogTemp: BranchPath = DESKTOP-IQLRGCS/D/PROGRAMAS/UNREAL/UE_4.16/Engine/Binaries --- GameBranchPath = DESKTOP-IQLRGCS/D/PROGRAMAS/UNREAL/UE_4.16/Engine/Binaries
+[2020.12.31-13.08.57:395][429]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Sof?a\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2020.12.31-13.10.12:405][156]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 112 classes and 0 folders.
+[2020.12.31-13.10.12:850][156]LogSlate: Took 0.000216 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.12.31-13.10.12:925][157]LogSlate: Took 0.000223 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.12.31-13.10.45:281][ 19]BlueprintLog: New page: Compile ModoSupervivencia
+[2020.12.31-13.10.45:792][ 59]LogSavePackage: Save=35.20ms
+[2020.12.31-13.10.45:792][ 59]LogSavePackage: Moving '../../../../../../CLASE/VIDEOJUEGOS/LAB/AmpliacionesUnreal/miProyecto/Supervivencia (2)/Supervivencia/Saved/ModoSupervivencia856AD874487DAE96D6496DA91F23A245.tmp' to '../../../../../../CLASE/VIDEOJUEGOS/LAB/AmpliacionesUnreal/miProyecto/Supervivencia (2)/Supervivencia/Content/ModoSupervivencia.uasset'
+[2020.12.31-13.10.45:793][ 59]LogSavePackage:Display: Finished SavePackage ../../../../../../CLASE/VIDEOJUEGOS/LAB/AmpliacionesUnreal/miProyecto/Supervivencia (2)/Supervivencia/Content/ModoSupervivencia.uasset
+[2020.12.31-13.10.54:439][ 65]LogAIModule: Creating AISystem for world Level2
+[2020.12.31-13.10.54:457][ 65]Cmd: MAP LOAD FILE="../../../../../../CLASE/VIDEOJUEGOS/LAB/AmpliacionesUnreal/miProyecto/Supervivencia (2)/Supervivencia/Content/Levels/Level2.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.12.31-13.10.54:457][ 65]LightingResults: New page: Lighting Build
+[2020.12.31-13.10.54:457][ 65]LoadErrors: New page: Loading map: Level2.umap
+[2020.12.31-13.10.54:457][ 65]MapCheck: New page: Map Check
+[2020.12.31-13.10.54:457][ 65]LightingResults: New page: Lighting Build
+[2020.12.31-13.10.54:484][ 65]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.12.31-13.10.54:531][ 65]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.12.31-13.10.54:590][ 65]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 58.729ms to complete.
+[2020.12.31-13.10.54:590][ 65]LogFileHelpers: Loading map 'Level2' took 0.134
+[2020.12.31-13.10.55:811][210]LogTemp: Repeting last play command: Selected Viewport
+[2020.12.31-13.10.55:837][210]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.12.31-13.10.55:838][210]PIE: New page: PIE session: Level2 (Dec 31, 2020, 3:10:55 PM)
+[2020.12.31-13.10.55:838][210]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level2
+[2020.12.31-13.10.55:851][210]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012780s)
+[2020.12.31-13.10.55:851][210]LogAIModule: Creating AISystem for world Level2
+[2020.12.31-13.10.55:851][210]LogPlayLevel: PIE: World Init took: (0.000550s)
+[2020.12.31-13.10.55:851][210]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level2.Level2 to /Game/Levels/UEDPIE_0_Level2.Level2 (0.013496s)
+[2020.12.31-13.10.55:866][210]LogInit: XAudio2 using 'cascos (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.12.31-13.10.55:877][210]LogInit: FAudioDevice initialized.
+[2020.12.31-13.10.55:903][210]LogLoad: Game class is 'ModoSupervivencia_C'
+[2020.12.31-13.10.55:908][210]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level2.Level2 up for play (max tick rate 0) at 2020.12.31-14.10.55
+[2020.12.31-13.10.55:909][210]LogWorld: Bringing up level for play took: 0.004238
+[2020.12.31-13.10.55:910][210]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Level2 0.755
+[2020.12.31-13.10.56:935][331]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint4] colision true
+[2020.12.31-13.10.56:935][331]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint_2] colision true
+[2020.12.31-13.10.56:952][333]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint2] colision true
+[2020.12.31-13.10.56:960][334]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint5] colision true
+[2020.12.31-13.10.56:985][337]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint3] colision true
+[2020.12.31-13.10.56:985][337]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint2] colision true
+[2020.12.31-13.10.57:010][340]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint5] colision true
+[2020.12.31-13.10.57:010][340]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint4] colision true
+[2020.12.31-13.10.57:052][345]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint3] colision true
+[2020.12.31-13.10.57:110][352]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint_2] colision true
+[2020.12.31-13.10.57:610][412]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint2] colision true
+[2020.12.31-13.10.58:744][548]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint7] colision true
+[2020.12.31-13.10.58:927][570]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint6] colision true
+[2020.12.31-13.10.59:253][609]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint7] colision true
+[2020.12.31-13.10.59:302][615]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint6] colision true
+[2020.12.31-13.10.59:744][668]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint7] colision true
+[2020.12.31-13.10.59:752][669]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint6] colision true
+[2020.12.31-13.11.00:394][746]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint7] colision true
+[2020.12.31-13.11.00:394][746]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint6] colision true
+[2020.12.31-13.11.11:652][ 87]LogPackageName: SearchForPackageOnDisk took   0.083s, but failed to resolve Level7.umap.
+[2020.12.31-13.11.11:740][ 88]LogPackageName: SearchForPackageOnDisk took   0.083s, but failed to resolve Level7.umap.
+[2020.12.31-13.11.11:740][ 88]LogNet: Browse: /Game/Levels/Level2
+[2020.12.31-13.11.11:740][ 88]LogNet:Warning: Travel Failure: [InvalidURL]: Invalid URL: /Game/Levels/Level2
+[2020.12.31-13.11.11:740][ 88]LogNet:Warning: TravelFailure: InvalidURL, Reason for Failure: 'Invalid URL: /Game/Levels/Level2'. Shutting down PIE.
+[2020.12.31-13.11.11:740][ 88]PIE:Warning: Warning TravelFailure: InvalidURL, Reason for Failure: 'Invalid URL: /Game/Levels/Level2'. Shutting down PIE.
+[2020.12.31-13.11.11:740][ 88]LogNet:Warning: Travel Failure: [ClientTravelFailure]: Invalid URL: /Game/Levels/Level2
+[2020.12.31-13.11.11:740][ 88]LogNet:Warning: TravelFailure: ClientTravelFailure, Reason for Failure: 'Invalid URL: /Game/Levels/Level2'. Shutting down PIE.
+[2020.12.31-13.11.11:740][ 88]PIE:Warning: Warning TravelFailure: ClientTravelFailure, Reason for Failure: 'Invalid URL: /Game/Levels/Level2'. Shutting down PIE.
+[2020.12.31-13.17.29:842][ 95]LogTemp: Repeting last play command: Selected Viewport
+[2020.12.31-13.17.29:861][ 95]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.12.31-13.17.29:861][ 95]PIE: New page: PIE session: Level2 (Dec 31, 2020, 3:17:29 PM)
+[2020.12.31-13.17.29:861][ 95]LogPlayLevel: Creating play world package: /Game/Levels/UEDPIE_0_Level2
+[2020.12.31-13.17.29:874][ 95]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012537s)
+[2020.12.31-13.17.29:874][ 95]LogAIModule: Creating AISystem for world Level2
+[2020.12.31-13.17.29:875][ 95]LogPlayLevel: PIE: World Init took: (0.000729s)
+[2020.12.31-13.17.29:875][ 95]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Levels/Level2.Level2 to /Game/Levels/UEDPIE_0_Level2.Level2 (0.013470s)
+[2020.12.31-13.17.29:892][ 95]LogInit: XAudio2 using 'cascos (Realtek(R) Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.12.31-13.17.29:903][ 95]LogInit: FAudioDevice initialized.
+[2020.12.31-13.17.29:929][ 95]LogLoad: Game class is 'ModoSupervivencia_C'
+[2020.12.31-13.17.29:934][ 95]LogWorld: Bringing World /Game/Levels/UEDPIE_0_Level2.Level2 up for play (max tick rate 0) at 2020.12.31-14.17.29
+[2020.12.31-13.17.29:935][ 95]LogWorld: Bringing up level for play took: 0.004370
+[2020.12.31-13.17.29:937][ 95]PIE: Info Play in editor start time for /Game/Levels/UEDPIE_0_Level2 0.781
+[2020.12.31-13.17.30:878][206]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint4] colision true
+[2020.12.31-13.17.30:878][206]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint_2] colision true
+[2020.12.31-13.17.30:886][207]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint2] colision true
+[2020.12.31-13.17.30:886][207]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint5] colision true
+[2020.12.31-13.17.30:911][210]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint2] colision true
+[2020.12.31-13.17.30:936][213]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint4] colision true
+[2020.12.31-13.17.30:945][214]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint5] colision true
+[2020.12.31-13.17.31:020][223]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint_2] colision true
+[2020.12.31-13.17.31:253][251]LogCharacterMovement: Jugador_C_0 is stuck and failed to move! Velocity: X=163.72 Y=-577.23 Z=0.00 Location: X=-8202.24 Y=7144.78 Z=274.83 Normal: X=-0.51 Y=-0.83 Z=-0.24 PenetrationDepth:35.620 Actor:Disparo_C_1 Component:Cube BoneName:None (0 other events since notify)
+[2020.12.31-13.17.31:436][273]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint6] colision true
+[2020.12.31-13.17.31:470][277]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint7] colision true
+[2020.12.31-13.17.32:061][348]LogBlueprintUserMessages: [Shape_Cube_DM_Blueprint6] colision true
+[2020.12.31-13.17.38:769][143]LogPackageName: SearchForPackageOnDisk took   0.082s, but failed to resolve Level7.umap.
+[2020.12.31-13.17.38:856][144]LogPackageName: SearchForPackageOnDisk took   0.082s, but failed to resolve Level7.umap.
+[2020.12.31-13.17.38:856][144]LogNet: Browse: /Game/Levels/Level2
+[2020.12.31-13.17.38:856][144]LogNet:Warning: Travel Failure: [InvalidURL]: Invalid URL: /Game/Levels/Level2
+[2020.12.31-13.17.38:856][144]LogNet:Warning: TravelFailure: InvalidURL, Reason for Failure: 'Invalid URL: /Game/Levels/Level2'. Shutting down PIE.
+[2020.12.31-13.17.38:857][144]PIE:Warning: Warning TravelFailure: InvalidURL, Reason for Failure: 'Invalid URL: /Game/Levels/Level2'. Shutting down PIE.
+[2020.12.31-13.17.38:857][144]LogNet:Warning: Travel Failure: [ClientTravelFailure]: Invalid URL: /Game/Levels/Level2
+[2020.12.31-13.17.38:857][144]LogNet:Warning: TravelFailure: ClientTravelFailure, Reason for Failure: 'Invalid URL: /Game/Levels/Level2'. Shutting down PIE.
+[2020.12.31-13.17.38:857][144]PIE:Warning: Warning TravelFailure: ClientTravelFailure, Reason for Failure: 'Invalid URL: /Game/Levels/Level2'. Shutting down PIE.
+[2020.12.31-14.06.19:331][433]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2020.12.31-14.06.19:372][436]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.Supervivencia
+[2020.12.31-14.06.19:372][436]LogTemp: CWD: D:\PROGRAMAS\UNREAL\UE_4.16\Engine\Binaries\DotNET\IOS
+[2020.12.31-14.06.19:372][436]LogTemp: Initial Dir: D:\PROGRAMAS\UNREAL\UE_4.16
+[2020.12.31-14.06.19:372][436]LogTemp: Env CWD: D:\PROGRAMAS\UNREAL\UE_4.16\Engine\Binaries\DotNET\IOS
+[2020.12.31-14.06.19:372][436]LogTemp: BranchPath = DESKTOP-IQLRGCS/D/PROGRAMAS/UNREAL/UE_4.16/Engine/Binaries --- GameBranchPath = DESKTOP-IQLRGCS/D/PROGRAMAS/UNREAL/UE_4.16/Engine/Binaries
+[2020.12.31-14.06.19:387][438]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Sof?a\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2020.12.31-14.06.35:618][381]LogSlate: Took 0.000154 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2020.12.31-14.07.24:492][973]LogSavePackage: Save=178.83ms
+[2020.12.31-14.07.24:493][973]LogSavePackage: Moving '../../../../../../CLASE/VIDEOJUEGOS/LAB/AmpliacionesUnreal/miProyecto/Supervivencia (2)/Supervivencia/Saved/Level2317CB14F4D34349C49AAE3A61BFD3581.tmp' to '../../../../../../CLASE/VIDEOJUEGOS/LAB/AmpliacionesUnreal/miProyecto/Supervivencia (2)/Supervivencia/Content/Levels/Level2.umap'
+[2020.12.31-14.07.24:495][973]LogSavePackage:Display: Finished SavePackage ../../../../../../CLASE/VIDEOJUEGOS/LAB/AmpliacionesUnreal/miProyecto/Supervivencia (2)/Supervivencia/Content/Levels/Level2.umap
+[2020.12.31-14.07.24:692][973]LogSavePackage: Save=153.45ms
+[2020.12.31-14.07.24:692][973]LogSavePackage: Moving '../../../../../../CLASE/VIDEOJUEGOS/LAB/AmpliacionesUnreal/miProyecto/Supervivencia (2)/Supervivencia/Saved/Level2_BuiltDataF2E8CABA4B3042B95FD2F3BB237BBB41.tmp' to '../../../../../../CLASE/VIDEOJUEGOS/LAB/AmpliacionesUnreal/miProyecto/Supervivencia (2)/Supervivencia/Content/Levels/Level2_BuiltData.uasset'
+[2020.12.31-14.07.24:693][973]LogSavePackage:Display: Finished SavePackage ../../../../../../CLASE/VIDEOJUEGOS/LAB/AmpliacionesUnreal/miProyecto/Supervivencia (2)/Supervivencia/Content/Levels/Level2_BuiltData.uasset
+[2020.12.31-14.07.27:156][258]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2020.12.31-14.07.27:320][259]Cmd: QUIT_EDITOR
+[2020.12.31-14.07.27:606][259]LogExit: Preparing to exit.
+[2020.12.31-14.07.28:428][259]LogDirectoryWatcher: A directory notification for 'D:/CLASE/VIDEOJUEGOS/LAB/AmpliacionesUnreal/miProyecto/Supervivencia (2)/Supervivencia/Content/' was aborted.
+[2020.12.31-14.07.28:457][259]LogExit: Editor shut down
+[2020.12.31-14.07.28:463][259]LogExit: Transaction tracking system shut down
+[2020.12.31-14.07.28:584][259]LogObj: Freed 0b from 0 cluster array pools.
+[2020.12.31-14.07.28:584][259]LogExit: Object subsystem successfully closed.
+[2020.12.31-14.07.28:606][259]LogD3D11RHI: Shutdown
+[2020.12.31-14.07.28:606][259]LogD3D11RHI: CleanupD3DDevice
+[2020.12.31-14.07.28:669][259]LogD3D11RHI: ~FD3D11DynamicRHI
+[2020.12.31-14.07.28:675][259]LogModuleManager: Shutting down and abandoning module BlueprintGraph (532)
+[2020.12.31-14.07.28:675][259]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (530)
+[2020.12.31-14.07.28:675][259]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (528)
+[2020.12.31-14.07.28:675][259]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (526)
+[2020.12.31-14.07.28:675][259]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (524)
+[2020.12.31-14.07.28:675][259]LogModuleManager: Shutting down and abandoning module CrashTracker (522)
+[2020.12.31-14.07.28:675][259]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
+[2020.12.31-14.07.28:675][259]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
+[2020.12.31-14.07.28:675][259]LogDirectoryWatcher: A directory notification for 'D:/PROGRAMAS/UNREAL/UE_4.16/FeaturePacks/' was aborted.
+[2020.12.31-14.07.28:676][259]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
+[2020.12.31-14.07.28:676][259]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
+[2020.12.31-14.07.28:676][259]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
+[2020.12.31-14.07.28:676][259]LogDirectoryWatcher: A directory notification for 'D:/CLASE/VIDEOJUEGOS/LAB/AmpliacionesUnreal/miProyecto/Supervivencia (2)/Supervivencia/Content/Collections/' was aborted.
+[2020.12.31-14.07.28:676][259]LogDirectoryWatcher: A directory notification for 'D:/CLASE/VIDEOJUEGOS/LAB/AmpliacionesUnreal/miProyecto/Supervivencia (2)/Supervivencia/Content/Developers/Sofía/Collections/' was aborted.
+[2020.12.31-14.07.28:676][259]LogDirectoryWatcher: A directory notification for 'D:/CLASE/VIDEOJUEGOS/LAB/AmpliacionesUnreal/miProyecto/Supervivencia (2)/Supervivencia/Saved/Collections/' was aborted.
+[2020.12.31-14.07.28:676][259]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2020.12.31-14.07.28:676][259]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2020.12.31-14.07.28:676][259]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2020.12.31-14.07.28:676][259]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2020.12.31-14.07.28:676][259]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2020.12.31-14.07.28:676][259]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2020.12.31-14.07.28:676][259]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2020.12.31-14.07.28:676][259]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2020.12.31-14.07.28:676][259]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2020.12.31-14.07.28:676][259]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2020.12.31-14.07.28:676][259]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2020.12.31-14.07.28:676][259]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2020.12.31-14.07.28:676][259]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2020.12.31-14.07.28:676][259]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2020.12.31-14.07.28:677][259]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2020.12.31-14.07.28:677][259]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2020.12.31-14.07.28:677][259]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2020.12.31-14.07.28:677][259]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2020.12.31-14.07.28:677][259]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2020.12.31-14.07.28:677][259]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2020.12.31-14.07.28:677][259]LogModuleManager: Shutting down and abandoning module Media (471)
+[2020.12.31-14.07.28:677][259]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2020.12.31-14.07.28:677][259]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2020.12.31-14.07.28:677][259]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2020.12.31-14.07.28:677][259]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2020.12.31-14.07.28:677][259]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2020.12.31-14.07.28:677][259]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2020.12.31-14.07.28:677][259]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2020.12.31-14.07.28:677][259]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2020.12.31-14.07.28:677][259]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2020.12.31-14.07.28:677][259]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2020.12.31-14.07.28:677][259]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2020.12.31-14.07.28:677][259]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2020.12.31-14.07.28:677][259]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2020.12.31-14.07.28:677][259]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2020.12.31-14.07.28:677][259]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2020.12.31-14.07.28:677][259]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2020.12.31-14.07.28:677][259]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2020.12.31-14.07.28:851][259]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2020.12.31-14.07.28:851][259]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2020.12.31-14.07.28:851][259]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2020.12.31-14.07.28:851][259]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2020.12.31-14.07.28:851][259]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2020.12.31-14.07.28:851][259]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2020.12.31-14.07.28:851][259]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2020.12.31-14.07.28:851][259]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2020.12.31-14.07.28:851][259]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2020.12.31-14.07.28:851][259]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2020.12.31-14.07.28:851][259]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2020.12.31-14.07.28:851][259]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2020.12.31-14.07.28:851][259]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2020.12.31-14.07.28:851][259]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2020.12.31-14.07.28:851][259]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2020.12.31-14.07.28:851][259]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2020.12.31-14.07.28:851][259]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2020.12.31-14.07.28:851][259]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2020.12.31-14.07.28:851][259]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2020.12.31-14.07.28:851][259]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2020.12.31-14.07.28:851][259]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2020.12.31-14.07.28:851][259]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2020.12.31-14.07.28:851][259]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2020.12.31-14.07.28:851][259]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2020.12.31-14.07.28:896][259]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2020.12.31-14.07.28:896][259]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2020.12.31-14.07.28:896][259]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2020.12.31-14.07.28:896][259]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2020.12.31-14.07.28:896][259]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2020.12.31-14.07.28:896][259]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2020.12.31-14.07.28:896][259]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2020.12.31-14.07.28:896][259]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2020.12.31-14.07.28:896][259]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2020.12.31-14.07.28:896][259]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2020.12.31-14.07.28:901][259]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2020.12.31-14.07.28:901][259]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2020.12.31-14.07.28:901][259]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2020.12.31-14.07.28:901][259]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2020.12.31-14.07.28:901][259]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2020.12.31-14.07.28:901][259]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2020.12.31-14.07.28:901][259]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2020.12.31-14.07.28:901][259]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2020.12.31-14.07.28:901][259]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2020.12.31-14.07.28:901][259]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2020.12.31-14.07.28:901][259]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2020.12.31-14.07.28:901][259]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2020.12.31-14.07.28:901][259]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2020.12.31-14.07.28:901][259]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2020.12.31-14.07.28:901][259]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2020.12.31-14.07.28:901][259]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2020.12.31-14.07.28:901][259]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2020.12.31-14.07.28:901][259]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2020.12.31-14.07.28:901][259]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2020.12.31-14.07.28:901][259]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2020.12.31-14.07.28:939][259]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2020.12.31-14.07.28:939][259]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2020.12.31-14.07.28:939][259]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2020.12.31-14.07.28:939][259]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2020.12.31-14.07.28:939][259]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2020.12.31-14.07.28:939][259]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2020.12.31-14.07.28:939][259]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2020.12.31-14.07.28:939][259]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2020.12.31-14.07.28:939][259]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2020.12.31-14.07.28:939][259]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2020.12.31-14.07.28:939][259]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2020.12.31-14.07.28:939][259]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2020.12.31-14.07.28:939][259]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2020.12.31-14.07.28:939][259]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2020.12.31-14.07.28:939][259]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2020.12.31-14.07.28:939][259]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2020.12.31-14.07.28:939][259]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2020.12.31-14.07.28:939][259]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2020.12.31-14.07.28:939][259]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2020.12.31-14.07.28:939][259]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2020.12.31-14.07.28:939][259]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2020.12.31-14.07.28:939][259]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2020.12.31-14.07.28:939][259]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2020.12.31-14.07.28:939][259]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2020.12.31-14.07.28:939][259]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2020.12.31-14.07.28:939][259]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2020.12.31-14.07.28:939][259]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2020.12.31-14.07.28:939][259]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2020.12.31-14.07.28:939][259]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2020.12.31-14.07.28:939][259]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2020.12.31-14.07.28:940][259]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2020.12.31-14.07.28:940][259]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2020.12.31-14.07.28:940][259]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2020.12.31-14.07.28:940][259]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2020.12.31-14.07.28:940][259]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2020.12.31-14.07.28:940][259]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2020.12.31-14.07.28:940][259]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2020.12.31-14.07.28:940][259]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2020.12.31-14.07.28:940][259]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2020.12.31-14.07.28:940][259]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2020.12.31-14.07.28:940][259]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2020.12.31-14.07.28:940][259]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2020.12.31-14.07.28:940][259]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2020.12.31-14.07.28:940][259]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2020.12.31-14.07.28:940][259]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2020.12.31-14.07.29:042][259]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2020.12.31-14.07.29:143][259]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2020.12.31-14.07.29:143][259]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2020.12.31-14.07.29:143][259]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2020.12.31-14.07.29:143][259]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2020.12.31-14.07.29:143][259]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2020.12.31-14.07.29:143][259]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2020.12.31-14.07.29:143][259]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2020.12.31-14.07.29:143][259]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2020.12.31-14.07.29:143][259]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2020.12.31-14.07.29:143][259]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2020.12.31-14.07.29:145][259]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2020.12.31-14.07.29:145][259]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2020.12.31-14.07.29:145][259]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2020.12.31-14.07.29:145][259]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2020.12.31-14.07.29:145][259]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2020.12.31-14.07.29:145][259]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2020.12.31-14.07.29:145][259]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2020.12.31-14.07.29:145][259]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2020.12.31-14.07.29:145][259]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2020.12.31-14.07.29:145][259]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2020.12.31-14.07.29:145][259]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2020.12.31-14.07.29:145][259]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2020.12.31-14.07.29:145][259]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2020.12.31-14.07.29:146][259]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2020.12.31-14.07.29:146][259]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2020.12.31-14.07.29:146][259]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2020.12.31-14.07.29:146][259]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2020.12.31-14.07.29:146][259]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2020.12.31-14.07.29:146][259]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2020.12.31-14.07.29:147][259]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2020.12.31-14.07.29:147][259]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2020.12.31-14.07.29:147][259]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2020.12.31-14.07.29:147][259]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2020.12.31-14.07.29:147][259]LogModuleManager: Shutting down and abandoning module Core (164)
+[2020.12.31-14.07.29:147][259]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2020.12.31-14.07.29:310][259]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2020.12.31-14.07.29:311][259]LogDirectoryWatcher: A directory notification for '../../../../../../CLASE/VIDEOJUEGOS/LAB/AmpliacionesUnreal/miProyecto/Supervivencia (2)/Supervivencia/Content/' was aborted.
+[2020.12.31-14.07.29:311][259]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2020.12.31-14.07.29:311][259]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2020.12.31-14.07.29:313][259]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2020.12.31-14.07.29:314][259]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2020.12.31-14.07.29:315][259]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2020.12.31-14.07.29:315][259]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2020.12.31-14.07.29:315][259]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2020.12.31-14.07.29:315][259]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2020.12.31-14.07.29:315][259]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2020.12.31-14.07.29:315][259]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2020.12.31-14.07.29:315][259]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2020.12.31-14.07.29:332][259]LogDerivedDataCache: Shutdown
+[2020.12.31-14.07.29:332][259]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2020.12.31-14.07.29:332][259]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2020.12.31-14.07.29:332][259]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2020.12.31-14.07.29:332][259]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2020.12.31-14.07.29:332][259]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2020.12.31-14.07.29:332][259]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2020.12.31-14.07.29:332][259]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2020.12.31-14.07.29:332][259]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2020.12.31-14.07.29:332][259]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2020.12.31-14.07.29:332][259]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2020.12.31-14.07.29:332][259]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2020.12.31-14.07.29:332][259]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2020.12.31-14.07.29:332][259]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2020.12.31-14.07.29:332][259]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2020.12.31-14.07.29:332][259]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2020.12.31-14.07.29:332][259]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2020.12.31-14.07.29:332][259]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2020.12.31-14.07.29:332][259]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2020.12.31-14.07.29:332][259]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2020.12.31-14.07.29:332][259]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2020.12.31-14.07.29:332][259]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2020.12.31-14.07.29:332][259]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2020.12.31-14.07.29:332][259]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2020.12.31-14.07.29:332][259]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2020.12.31-14.07.29:332][259]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2020.12.31-14.07.29:332][259]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2020.12.31-14.07.29:332][259]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2020.12.31-14.07.29:332][259]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2020.12.31-14.07.29:332][259]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2020.12.31-14.07.29:332][259]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2020.12.31-14.07.29:332][259]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2020.12.31-14.07.29:332][259]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2020.12.31-14.07.29:332][259]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2020.12.31-14.07.29:332][259]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2020.12.31-14.07.29:332][259]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2020.12.31-14.07.29:332][259]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2020.12.31-14.07.29:332][259]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2020.12.31-14.07.29:332][259]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2020.12.31-14.07.29:332][259]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2020.12.31-14.07.29:332][259]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2020.12.31-14.07.29:332][259]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2020.12.31-14.07.29:332][259]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2020.12.31-14.07.29:332][259]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2020.12.31-14.07.29:333][259]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2020.12.31-14.07.29:333][259]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2020.12.31-14.07.29:333][259]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2020.12.31-14.07.29:333][259]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2020.12.31-14.07.29:333][259]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2020.12.31-14.07.29:333][259]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2020.12.31-14.07.29:333][259]LogOnline:Display: Unloading online subsystem: NULL
+[2020.12.31-14.07.29:333][259]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2020.12.31-14.07.29:333][259]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2020.12.31-14.07.29:333][259]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2020.12.31-14.07.29:333][259]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BCEA2D4DE-47C1-0150-00F6-0BA78708125D%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.3-3561208%2B%2B%2BUE4%2BRelease-4.16&UserID=e501a7c44c841f62f7de50abe6de14c6%7C277c8d9923434d3bb8920cc7c789e26e%7C7a263120-b56e-4687-b57b-11107039a0b9&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2020.12.31-14.07.29:365][259]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2020.12.31-14.07.29:366][259]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2020.12.31-14.07.29:366][259]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2020.12.31-14.07.29:366][259]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2020.12.31-14.07.29:366][259]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2020.12.31-14.07.29:366][259]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2020.12.31-14.07.29:366][259]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2020.12.31-14.07.29:366][259]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2020.12.31-14.07.29:366][259]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2020.12.31-14.07.29:367][259]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2020.12.31-14.07.29:367][259]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2020.12.31-14.07.29:367][259]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2020.12.31-14.07.29:367][259]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2020.12.31-14.07.29:367][259]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2020.12.31-14.07.29:367][259]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2020.12.31-14.07.29:367][259]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2020.12.31-14.07.29:367][259]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2020.12.31-14.07.29:367][259]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2020.12.31-14.07.29:367][259]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2020.12.31-14.07.29:369][259]LogExit: Exiting.
+[2020.12.31-14.07.29:384][259]Log file closed, 12/31/20 15:07:29
